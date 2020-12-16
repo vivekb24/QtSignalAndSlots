@@ -20,7 +20,7 @@ MainWindow::~MainWindow()
 void MainWindow::timerCustomSlot(int value)
 {
     ui->label->setText("<center>"+QString::number(value)+"</center>");
-    ui->statusBar->showMessage("DONE",3000);
+
 }
 
 void MainWindow::slotResponse()
